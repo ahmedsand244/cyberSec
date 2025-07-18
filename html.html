@@ -17,7 +17,7 @@
         <div class="container">
             <nav>
                 <div class="logo">CYBER<span>SEC</span></div>
-                <ul class="nav-links">
+                <ul class="nav-links" id="nav-links" >
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -25,7 +25,7 @@
                     <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="mobile-menu">
+                <div class="mobile-menu" id="mobile-menu">
                     <i class="fas fa-bars"></i>
                 </div>
             </nav>
@@ -497,13 +497,7 @@
 
 
         
-        // Mobile menu toggle
-        const mobileMenu = document.querySelector('.mobile-menu');
-        const navLinks = document.querySelector('.nav-links');
 
-        mobileMenu.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
         
 
 
@@ -571,7 +565,13 @@ if (countersSection) {
 }
 
 
+        // Mobile menu toggle
+const mobileMenu = document.getElementById('mobile-menu');
+  const navLinks = document.getElementById('nav-links');
 
+  mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
     </script>
 </body>
 </html>
