@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSec Portfolio | Ethical Hacker & Security Specialist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <canvas class="matrix-bg" id="matrixCanvas"></canvas>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">CYBER<span>SEC</span></div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="glitch" data-text="CYBERSECURITY EXPERT">CYBERSECURITY EXPERT</h1>
+                    <p>Securing digital worlds with ethical hacking, penetration testing, and threat analysis. Specializing in identifying vulnerabilities before they become threats.</p>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="stat-value" id="counter1" data-target="1955">0</div>
+                            <div class="stat-label">Facebook followers</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value" id="counter2" data-target="13">0</div>
+                            <div class="stat-label">Number of certificates</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value" id="counter3" data-target="5">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value" id="counter4" data-target="14">0</div>
+                            <div class="stat-label">Number of Skills</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <div class="dot dot-red"></div>
+                            <div class="dot dot-yellow"></div>
+                            <div class="dot dot-green"></div>
+                        </div>
+                        <div class="terminal-title">root@cybersec:~</div>
+                    </div>
+                    <div class="terminal-content">
+                        <p><span class="command">$ whoami</span><br>Youmna Ramadan Mahmoud <br> Cybersecurity Engineer | Soc Analysis </p>
+                        <p><span class="command">$ skills</span><br>Ehtical Hacking  · Web Security  · Malware Analysis · Pentration Testing  ·Vulnerability Assessment · Network Security · Programming  </p>
+                        <p><span class="command">$ Soft skills</span><br>Time Management  · Communication · Leadership  · TOT · Teamwork  ·Self_Learning  · Problem Solving · Attention in detail </p>
+                        <p><span class="command">$ cat certifications.txt</span><br>CCNA · Linux · HTML · CSS · Javascript · Database · Security+</p>
+                        <p><span class="command">$ run --mission</span><br>> Protecting digital infrastructure<br>> Securing sensitive data<br>> Ethical hacking for security</p>
+                        <p><span class="command">$ </span><span class="cursor"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div>
+                    <h3>Cybersecurity Specialist</h3>
+                    <p>I am a third-year student at the Faculty of Computers and Information, majoring in Cybersecurity. I am actively pursuing opportunities to launch my career as a Cyber Security Analyst, particularly within the Security Operations Center (SOC) realm.</p>
+                    <p>Equipped with a strong foundation in blue team operations, a proactive mindset, and a commitment to continuous improvement, I am eager to contribute to the defense of digital infrastructures and the mitigation of cyber threats.</p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Penetration Testing</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Web Security</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Digital Forensics</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Network Security</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <h4>Computer Network Security</h4>
+                            <p>It covers topics such as firewalls, intrusion detection systems, and encryption techniques.</p>
+                        </div>
+                        <div class="cert-card">
+                            <h4>Introduction to Computer Network</h4>
+                            <p>Learners gain hands-on experience in setting up and troubleshooting small networks.</p>
+                        </div>
+                        <div class="cert-card">
+                            <h4>Ethical Hacking</h4>
+                            <p>It teaches penetration testing, vulnerability assessment, and hacking tools ethically.</p>
+                        </div>
+                        <div class="cert-card">
+                            <h4>Python Programming</h4>
+                            <p>The course serves as a base for web development, automation, and cybersecurity scripting.</p>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 30px;">Education</h3>
+                    <div class="cert-card">
+                        <h4> Linux Administration</h4>
+                        <p>This course provides practical skills for managing Linux operating systems.</p>
+                    </div>
+                    <div class="cert-card">
+                        <h4>Web Design</h4>
+                        <p>This course introduces students to designing and building websites from scratch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img"><img src="/cnf.jpg" alt=""></div>
+                    <div class="project-content">
+                        <h3>Computer Network Fundamentals</h3>
+                        <p>A course covering the basics of computer networks, including protocols, topologies, and data transmission principles</p>
+                        <div class="project-tags">
+                            <span class="project-tag"> Network architecture</span>
+                            <span class="project-tag">TCP/IP, LAN/WAN</span>
+                            <span class="project-tag">routing, switching and troubleshooting.</span>
+                        </div>
+                        <button class="btn">View Report</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"><img src="/E.jpg" alt=""></div>
+                    <div class="project-content">
+                        <h3>Ethical Hacking</h3>
+                        <p>Training on penetration testing, vulnerability assessment, and defensive techniques to secure systems ethically.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Web Security</span>
+                            <span class="project-tag"> penetration testing</span>
+                            <span class="project-tag">vulnerability analysis</span>
+                        </div>
+                        <button class="btn">View Case Study</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img"><img src="/cyber.jpg" alt=""></div>
+                    <div class="project-content">
+                        <h3>Cybersecurity For All</h3>
+                        <p> An introductory course on cybersecurity concepts, threats, and best practices for protecting digital assets. </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Cyber threats</span>
+                            <span class="project-tag">encryption</span>
+                            <span class="project-tag">risk management</span>
+                        </div>
+                        <button class="btn">View Research</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img"><img src="/mico.jpg" alt=""></div>
+                    <div class="project-content">
+                        <h3>Microsoft Student SOC Program Foundations</h3>
+                        <p>Foundational training for Security Operations Center (SOC) roles, focusing on threat detection and response. </p>
+                        <div class="project-tags">
+                            <span class="project-tag">SOC operations</span>
+                            <span class="project-tag">threat analysis</span>
+                            <span class="project-tag">incident response</span>
+                        </div>
+                        <button class="btn">View Research</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tools Section -->
+    <section id="tools">
+        <div class="container">
+            <div class="section-title">
+                <h2>Security Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Network Scanner</h3>
+                    <p>Advanced Python-based network reconnaissance tool for identifying live hosts, open ports, and service detection.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Vulnerability Detector</h3>
+                    <p>Custom vulnerability scanner designed to identify security weaknesses in web applications and APIs.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Password Cracker</h3>
+                    <p>Optimized password cracking utility with support for multiple attack vectors and GPU acceleration.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Malware Analyzer</h3>
+                    <p>Automated malware analysis sandbox for detecting and analyzing suspicious files and processes.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Secure Code Auditor</h3>
+                    <p>Static code analysis tool for identifying security vulnerabilities in source code across multiple languages.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Report Generator</h3>
+                    <p>Automated penetration testing report generator with customizable templates and findings database.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Computer Network Security</h3>
+                    <p>The course builds a strong base for cybersecurity roles and certifications.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Introduction to Computer Network</h3>
+                    <p>It forms the basis for more advanced networking studies and certifications.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Ethical Hacking</h3>
+                    <p>It teaches penetration testing, vulnerability assessment, and hacking tools ethically.</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Security+</h3>
+                    <p>CompTIA Security+ - Foundational cybersecurity certification</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Python Programming</h3>
+                    <p>This course offers a comprehensive introduction to Python, one of the most in-demand languages</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>SOC Program Foundations (Microsoft)</h3>
+                    <p>Learners become familiar with tools like Microsoft Defender and Sentinel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <a href="mailto:security@cybersec.com">security@cybersec.com</a>
+                            <p>PGP Key Available</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                            <p>Encrypted Calls Available</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Sohag-Akhmim Elsherkawy Street, CA</p>
+                            <p>Remote Work Available</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>PGP Public Key</h3>
+                            <a href="#">Download Public Key</a>
+                            <p>Fingerprint: 1A2B 3C4D 5E6F 7A8B 9C0D</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="encrypt">
+                            <label for="encrypt">Encrypt message with PGP</label>
+                        </div>
+                        <button type="submit" class="btn">Send Securely</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">CYBER<span>SEC</span></div>
+                <div class="social-links">
+                        <!-- Social Media Links -->
+                        <a href="https://www.facebook.com/share/1AojRHv7kC/" class="social-link" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/youmna-ramadan-557432321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <!-- <a href="https://www.instagram.com/" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        </a> -->
+                        <a href="https://wa.me/2001158588171" class="social-link" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        </a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 CYBERSEC Portfolio By Ahmed Torky . All rights reserved. 
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Matrix background effect
+        const canvas = document.getElementById('matrixCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789$#@%&*';
+        const fontSize = 14;
+        const columns = canvas.width / fontSize;
+        
+        const drops = [];
+        for(let i = 0; i < columns; i++) {
+            drops[i] = Math.floor(Math.random() * canvas.height / fontSize);
+        }
+        
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(10, 10, 18, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.fillStyle = '#0fff50';
+            ctx.font = `${fontSize}px 'Share Tech Mono'`;
+            
+            for(let i = 0; i < drops.length; i++) {
+                const text = characters.charAt(Math.floor(Math.random() * characters.length));
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                
+                if(drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                
+                drops[i]++;
+            }
+        }
+        
+        setInterval(drawMatrix, 33);
+        
+        
+        
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+        
+        // Mobile menu toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        
+
+
+        // Window resize handler
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            
+            if (window.innerWidth > 768) {
+                navLinks.style.display = 'flex';
+            } else {
+                navLinks.style.display = 'none';
+            }
+        });
+        
+        // Glitch effect for headings
+        const glitchElements = document.querySelectorAll('.glitch');
+        glitchElements.forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                element.classList.add('glitch-active');
+            });
+            
+            element.addEventListener('mouseleave', () => {
+                element.classList.remove('glitch-active');
+            });
+        });
+
+
+// Function to animate any counter
+function animateCounter(element, finalValue, duration) {
+    let startTime = null;
+    const startValue = 0;
+
+    function step(timestamp) {
+        if (!startTime) startTime = timestamp;
+        const progress = Math.min((timestamp - startTime) / duration, 1);
+        const currentValue = Math.floor(progress * (finalValue - startValue) + startValue);
+        element.textContent = currentValue;
+
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
+        }
+    }
+
+    window.requestAnimationFrame(step);
+}
+
+// Observer to trigger animation once
+const countersSection = document.querySelector('.stats-grid'); // غيرها حسب سكشن العداد
+
+if (countersSection) {
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                document.querySelectorAll('.stat-value').forEach(counter => {
+                    const finalValue = parseInt(counter.dataset.target);
+                    animateCounter(counter, finalValue, 2000);
+                });
+                observer.disconnect(); // إمنع التشغيل التاني
+            }
+        });
+    }, { threshold: 0.5 });
+
+    observer.observe(countersSection);
+}
+
+
+
+    </script>
+</body>
+</html>
